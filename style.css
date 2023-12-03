@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* ================== nav start================== */
+nav ul{
+    margin-left: 64px;
+}
+nav ul li{
+    color: var(--White, #FFF);
+margin-left: 48px;
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+nav .bttn{
+    padding: 20px 48px;
+gap: 16px;
+border-radius: 12px;
+background: var(--primary, #FFD2A4);
+backdrop-filter: blur(40px);
+color: var(--Black, #1C1D28);
+text-align: center;
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+text-transform: uppercase;
+}
+/* ================== nav end ===================== */
+/* ================== header ====================== */
+#header{
+    background-image: url(images/header\ bg.png);
+    padding-top: 128px;
+    padding-bottom: 336px;
+    background-size: cover;
+    margin-bottom: 128px;
+}
+#header p{
+    color: var(--White, #FFF);
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+#header h1{
+    color: var(--White, #FFF);
+
+/* Heading H1 */
+font-family: Roboto Condensed;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 82px; /* 128.125% */
+letter-spacing: -0.64px;
+text-transform: uppercase;
+}
+#header .h-btn{
+    padding: 20px 48px;
+    gap: 16px;
+    border-radius: 12px;
+    background: var(--primary, #FFD2A4);
+    backdrop-filter: blur(40px);
+    color: var(--Black, #1C1D28);
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+#header h5{
+    color: #FFF;
+margin-top: 64px;
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+margin-left: 12px;
+position: relative;
+}
+#header h5::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -25px;
+    width: 18px;
+height: 2px;
+background: #FFD2A4;
+}
+/* ================== header end ================== */
+/* ================== we-do start================== */
+#we-do h5{
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+#we-do h1{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 133.333% */
+letter-spacing: -0.48px;
+text-transform: uppercase;
+margin-bottom: 64px;
+}
+#we-do .card-img{
+    width: 48px;
+    height: 48px;
+}
+#we-do .card{
+    background: var(--Light-orange, #FFF5EB);
+    padding: 80px;
+    border: none;
+}
+#we-do{
+    margin-bottom: 128px;
+}
+#we-do .card-footer{
+    height: 16px;
+    background: var(--primary, #FFD2A4);
+}
+/* ================== we-do end ================== */
+/* ================== welcome start ================== */   #welcome .content{
+   max-width: 1024px;
+    margin: 0 auto;
+}
+#welcome h6{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+#welcome h1{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 133.333% */
+letter-spacing: -0.48px;
+text-transform: uppercase;
+}
+#welcome p{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-align: center;
+}
+#welcome .btn{
+    padding: 24px 64px;
+    border-radius: 12px;
+background: var(--primary, #FFD2A4);
+color: var(--Black, #1C1D28);
+text-align: center;
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+text-transform: uppercase;
+margin-top: 56px;
+}
+#welcome .card{
+    border: none;
+}
+#welcome .b-img{
+    margin-top: 48px;
+}
+#welcome .bottom{
+    margin-top: 64px;
+}
+#welcome .bottom h5{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+#welcome .bottom h2{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px; /* 137.5% */
+letter-spacing: -0.32px;
+text-transform: uppercase;
+}
+#welcome .bottom a{
+    color: #161722;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 114.286% */
+text-decoration: none;
+}
+#welcome{
+    margin-bottom: 128px;
+}
+#welcome .card{
+    margin-top: 40px;
+}
+/* ==================welcome end ================== */
+/* ==================church start ================== */
+#church{
+    background: #F5F2F0;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    margin-bottom: 128px;
+}
+#church h6{
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#church h1{
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+}
+#church h5{
+    color: var(--White, #FFF);
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    text-transform: uppercase;
+}
+#church p{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    opacity: 0.78;
+}
+.card-img-overlayr{
+    position: absolute;
+    bottom: 0;
+   padding-top:120px;
+   padding-left: 32px;
+   padding-right: 32px;
+}
+#church .card-img-overlayr{
+    background: linear-gradient(355deg, #060606 16.68%, rgba(0, 0, 0, 0.02) 96.44%);
+   height: 187px;
+   overflow: hidden;
+   transition: 0.5s;
+}
+#church .card-img-overlayr:hover{
+    height: 309px;
+}
+
+/* ==================church end ================== */
+/* ==================join-us start ================== */
+#join-us h6{
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#join-us h2{
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+}
+#join-us .info{
+    padding: 35px 90px;
+    background-color: #FFF5EB;
+}
+#join-us h3{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+#join-us h5{
+font-family: Roboto Condensed;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.96px;
+text-transform: uppercase;
+background: var(--Gradient, linear-gradient(110deg, #A54E2B -53.83%, #DC9853 62.61%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#join-us h1{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.24px;
+text-transform: uppercase;
+}
+#join-us h4{
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-bottom: 32px;
+}
+
+#join-us svg{
+    margin-right: 10px;
+}
+#join-us p{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+#join-us button{
+    padding: 24px 64px;
+    border-radius: 12px;
+background: var(--Black, #161722);
+backdrop-filter: blur(40px);
+color: var(--primary, #FFD2A4);
+text-align: center;
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+text-transform: uppercase;
+}
+#join-us .card{
+    border: none;
+}
+#join-us .last{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+margin-top: 48px;
+}
+#join-us{
+    margin-bottom: 128px;
+}
+/* ==================join-us end ================== */
+/* ==================serve start ================== */
+#serve{
+    background-image: url(images/Background.png);
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-size: cover;
+    margin-bottom: 128px;  
+}
+#serve .card-body{
+    margin-left: 48px;
+    position: relative;
+}
+#serve .card-body img{
+    position: absolute;
+    top: 170px;
+    right: 48px;
+}
+#serve h1{
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin-top: 72px;
+}
+#serve p{
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+#serve button{
+    padding: 24px 64px;
+    border-radius: 12px;
+background: var(--primary, #FFD2A4);
+border:none;
+color: var(--Black, #1C1D28);
+text-align: center;
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+text-transform: uppercase;
+margin-bottom: 80px;
+}
+#serve .card-footer{
+    height: 16px;
+    background: #FFD2A4;
+}
+#serve .card{
+    border: none;
+}
+/* ==================serve end ================== */
+/* ==================blog start ================== */
+#blog h6{
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#blog h1{
+    color: var(--Black, #161722);
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+}
+#blog .card{
+     background: #FFF5EB;
+     border: none;
+    
+}
+#blog h5{
+font-family: Roboto Condensed;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.96px;
+text-transform: uppercase;
+background: var(--Gradient, linear-gradient(110deg, #A54E2B -53.83%, #DC9853 62.61%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 48px;
+}
+#blog p{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+#blog h3{
+    color: var(--Black, #161722);
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#blog h4{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+#blog .card-footerr{
+    height: 16px;
+    transition: 0.5s;
+}
+#blog .card:hover .card-footerr{
+    background: #FFD0A0;
+}
+#blog{
+    margin-bottom: 128px;
+}
+#blog h2{
+    color: var(--Black, #161722);
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.24px;
+text-transform: uppercase;
+}
+#blog .card-body{
+    padding-left: 32px;
+}
+/* ==================blog end ================== */
+/* ==================footer start================== */
+#footer{
+ background-color: #161722 ;  
+}
+#footer img{
+    margin-bottom: 16px;
+}
+#footer ul li a{
+    color: var(--White, #FFF);
+font-family: Roboto Condensed;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+#footer h5{
+    color: var(--White, #FFF);
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+#footer h4{
+    color: var(--White, #FFF);
+font-family: Roboto Condensed;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px; /* 137.5% */
+letter-spacing: -0.32px;
+text-transform: uppercase;
+margin-bottom: 32px;
+}
+#footer .sub{
+border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#footer .button{
+    padding: 24px 64px;
+    border-radius: 12px;
+background: var(--primary, #FFD2A4);
+color: var(--Black, #1C1D28);
+text-align: center;
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+text-transform: uppercase;
+}
+#footer input{
+    color: var(--White, #FFF);
+font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+opacity: 0.8;
+background-color: transparent;
+border: none;
+flex: 1;
+outline: none;
+padding-left: 20px;
+}
+/* #footer .quick{
+    margin-left: 10px;
+} */
+/* ==================footer end ================== */
+/* =============== responsive start ================== */
+@media (min-width: 320px) and (max-width: 576px){
+    #header h1 {
+        font-size: 47px;
+    }
+    #join-us .info {
+        padding: 35px 52px;
+    }
+    #serve .card-body img {
+        display: none;
+    }
+    #footer .button {
+            padding: 24px 22px;
+    }
+    #church p {
+        margin-top: 33px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    nav ul {
+        margin-left: 4px;
+    }
+    .card-img-overlayr {
+        padding-left: 120px;
+    }
+    #church .card-img-overlayr {
+        height: 160px;
+    }
+    nav .bttn {
+        padding: 20px 30px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 992px){
+    #join-us .info {
+        padding: 3px 26px;
+        background-color: #FFF5EB;
+    }
+    #join-us h4 {
+        margin-bottom: 7px;
+    }
+    #church h5 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #footer img {
+        width: 105px;
+    }
+    #we-do .card {
+        padding: 50px;
+    }
+   
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    #join-us .info {
+        padding: 30px 52px;
+    }
+}
+/* =============== responsive end ==================== */
